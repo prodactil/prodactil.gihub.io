@@ -8,7 +8,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
     <header class="header">
         <a href="#home" class="logo">Damian 
         <span>Rusu</span></a>
@@ -19,7 +18,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
             <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -44,12 +43,27 @@
         </div>
             <div class="home-img">
                 <a href="https://www.dropbox.com/scl/fi/pdzvh5sw3fp66kjhaw7tn/Damian-Rusu-CV.pdf?rlkey=9qdrgmqtq8ku0za27ul6184tu&st=kg8riw26&dl=0" target="_blank">
-                    <img src="04EAB725-621A-42DF-AE19-CA704BE797AE 2.JPG" alt="">
+                    <img src="img/04EAB725-621A-42DF-AE19-CA704BE797AE 2.JPG" alt="">
                 </a>
             </div>
+        
     </section>
 
     <section class="education" id="education">
+
+        <div class="slider">
+            <div class="tools">
+                <div class="item-img" style="--position: 1"><img src="img/bxl-html5.svg" alt=""></div>
+                <div class="item-img" style="--position: 2"><img src="img/bxl-css3.svg" alt=""></div>
+                <div class="item-img" style="--position: 3"><img src="img/bxl-javascript.svg" alt=""></div>
+                <div class="item-img" style="--position: 4"><img src="img/bxl-figma.svg" alt=""></div>
+                <div class="item-img" style="--position: 5"><img src="img/adobe-illustrator.svg" alt=""></div>
+                <div class="item-img" style="--position: 6"><img src="img/adobe-photoshop.svg" alt=""></div>
+                <div class="item-img" style="--position: 7"><img src="img/bxl-blender.svg" alt=""></div>
+                <div class="item-img" style="--position: 8"><img src="img/vs-code.svg" alt=""></div>
+            </div>
+        </div>
+
         <h2 class="heading">Education</h2>
 
         <div class="timeline-items">
@@ -121,25 +135,99 @@
         </div>
     </section>
     
-    <section class="testimonials" id="testimonials">
-        <div class="testimonials-box">
-            <h2 class="heading">
-                
-            </h2>
-        </div>
-    </section>
+    <section class="projects" id="projects">
+        <div class="projects-box">
+            <h2 class="heading">My Projects</h2>
+            <div class="wrapper"></div>
 
-    <section class="contact">
-        <div class="contact-content">
-            <div class="content-spline">
-                <h4 id="title">3D Model</h4>
-                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.6.0/build/spline-viewer.js"></script>
-                <spline-viewer url="https://prod.spline.design/2xOxk9uZa0s69WsD/scene.splinecode"></spline-viewer>
-                <p>You can intercat with that <span>3D Model</span></p>
-                <p><span>P.S</span> Try to press <span>'Q' 'W' 'A' 'Enter'</span> on your <span>keyboard</span></p>
+                <div class="projects-items">
+                    <h4 id="title">3D Model</h4>
+                    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.6.0/build/spline-viewer.js"></script>
+                    <spline-viewer url="https://prod.spline.design/2xOxk9uZa0s69WsD/scene.splinecode"></spline-viewer>
+                    <div class="projects-description">
+                        <p>You can interact with that <span>3D Model</span></p>
+                        <p><span>P.S</span> Try to press <span>'Q' 'W' 'A' 'Enter'</span> on your <span>keyboard</span></p>
+                    </div>
+                </div>
+
+                <div class="projects-items">
+                    <h4 id="title">Dark Forest Website</h4>
+                    <img src="img/DarkForest.png" alt="">
+                    <div class="projects-description">
+                        <p>You can intercat with that <span>Website</span></p>
+                        <a href="https://prodactil.github.io/DarkForest/" class="btn-prj" target="_blank">Click Here</a>
+                    </div>
+                </div>
+
+                <div class="projects-items">
+                    <h4 id="title">R2E Website</h4>
+                    <img src="img/Design.png" alt="">
+                    <div class="projects-description">
+                        <p>You can interact with that <span>Website</span></p>
+                        <a href="https://prodactil.github.io/design/" class="btn-prj" target="_blank">Click Here</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-gropu-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/damian-rusu-830a62242/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/prodactil" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/russu.damian/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://x.com/damiianrusu" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+            <li>
+                <a href="#">Projects</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Rusu Damian | All Rights Reserved
+        </p>
+
+    </footer>
 
     <script src="script.js"></script>
 </body>
